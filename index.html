@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>HAPPY ANNIVERSARY!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="valentines">
+            <a href="letter.html">
+                <div class="envelope"></div>
+                <div class="front"></div>
+                <div class="card">
+                    <div class="text">For Gauri!</div>
+                    <div class="heart" </div>
+                    </div>
+                    <div class="hearts">
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three"></div>
+                        <div class="four"></div>
+                        <div class="five"></div>
+                    </div>
+                </div>
+            </a>
+</body>
+</div>
+<div class="shadow"></div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('.container').mouseenter(function() {
+            $('.card').stop().animate({
+                top: '-90px'
+            }, 'slow');
+        }).mouseleave(function() {
+            $('.card').stop().animate({
+                top: 0
+            }, 'slow');
+        });
+    });
+</script>
+</body>
+
+</html>
